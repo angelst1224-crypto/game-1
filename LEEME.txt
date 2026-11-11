@@ -1,0 +1,16 @@
+ISLA ÚLTIMA HD — versión instalable (PWA)
+
+CONTENIDO
+- index.html: juego original preparado para abrirse como app.
+- manifest.webmanifest: nombre, iconos y orientación horizontal.
+- sw.js: caché de la app y recursos para mejorar la carga.
+- icon-192.png / icon-512.png: iconos de la aplicación.
+
+CÓMO INSTALAR EN ANDROID
+1. Publica el contenido de esta carpeta en un hosting HTTPS (por ejemplo, tu dominio o un servicio de hosting estático).
+2. Abre la dirección HTTPS en Chrome desde el teléfono.
+3. Pulsa el menú ⋮ y elige “Instalar aplicación” o “Añadir a pantalla de inicio”.
+4. Abre Isla Última desde el nuevo icono y gira el teléfono a horizontal.
+
+IMPORTANTE
+Esta entrega es una PWA instalable, no un APK firmado. Para cargarla desde un enlace local file:// no se puede instalar como PWA. El motor 3D Three.js y las fuentes se cargan desde CDN, así que la primera carga requiere conexión a Internet; el service worker guarda recursos compatibles para visitas posteriores. El juego y sus mecánicas originales se han conservado.
